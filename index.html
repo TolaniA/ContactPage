@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- FontAwesome for icons -->
+
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="left-nav">
+                <div class="logo">
+                    <img src="./images/NHB_logo.avif" alt="Logo" />
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#book">Book</a></li>
+                    <li class="dropdown">
+                        <a href="#shop" class="dropbtn">Shop</a>
+                        <div class="dropdown-content">
+                            <a href="#tools">Tools</a>
+                            <a href="#products">Products</a>
+                        </div>
+                    </li>
+                    <li><a href="#rent">Rent</a></li>
+                </ul>
+            </div>
+            <div class="right-nav">
+                <div class="region-currency">
+                    <span>Country/region: GBP £ | United Kingdom</span>
+                </div>
+                <div class="icons">
+                    <a href="#search"><i class="fas fa-search"></i></a>
+                    <a href="#user"><i class="fas fa-user"></i></a>
+                    <a href="#cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <h2 class="center">Contact Us</h2>
+    <h4 class="paragraph">How can we help?</h4>
+
+    <form action="/submit_contact_form" method="POST">
+        <div class="form-row">
+            <div>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+            </div>
+            <div>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+        </div>
+        <div></div>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+        </div>
+        <div>
+            <textarea id="message" name="message" required placeholder="Comment"></textarea>
+        </div>
+        <div class="clearfix">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    <section class="subscribe">
+        <h2>Subscribe to our emails</h2>
+        <p>Join our email list for exclusive offers and the latest news.</p>
+        <input type="email-sub" id="email_subscribe" name="email_subscribe" placeholder="Email" required>
+    </section>
+    
+    <footer class="bottom-nav">
+        <div class="logo">
+            <img src="./images/Vector.svg" alt="Logo">
+        </div>
+
+        <button class="follow-button"><span class="heart-icon">&#x2665;</span> Follow on Shop </button>
+   
+        <nav class="menu">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Refund Policy</a></li>
+                <li><a href="#">Shipping Policy</a></li>
+            </ul>
+        </nav>
+
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+
+        <div class="line"></div>
+        <div class="copyright">
+            <p>© 2024, NIYO HAIR AND BEAUTY</p>
+        </div>
+        
+        <div class="footer-center">
+            <div class="currency-dropdown">
+                <button class="currency-btn">UNITED KINGDOM (GBP £)</button>
+                <div class="currency-dropdown-content">
+                    <a href="#">UNITED KINGDOM (GBP £)</a>
+                    <a href="#">UNITED STATES (USD $)</a>
+                </div>
+    </body>
+    </html>
+ 
